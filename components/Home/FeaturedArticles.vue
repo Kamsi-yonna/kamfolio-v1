@@ -22,7 +22,7 @@
                             {{ article.description }}
                         </p>
                     </article>
-                    <NuxtImg alt="Kamsiyonna Etiobi"
+                    <img alt="Kamsiyonna Etiobi"
                         class="hover:ring-4 transition-all duration-300 rounded-sm h-12 w-12 sm:h-12 sm:w-12 object-cover"
                         format="webp" placeholder sizes="48px sm:64px" src="/images/Notion_app_logo.png" />
                 </NuxtLink>
