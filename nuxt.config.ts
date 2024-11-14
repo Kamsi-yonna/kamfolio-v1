@@ -23,24 +23,39 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: [[
-    "@nuxtjs/google-fonts",
-    {
-      families: {
-        Poppins: {
-          wght: [300, 400, 500, 700, 800],
+  modules: [
+    [
+      "@nuxtjs/google-fonts",
+      {
+        families: {
+          Poppins: {
+            wght: [300, 400, 500, 700, 800],
+          },
         },
+        display: "swap",
+        download: true,
       },
-      display: "swap",
-      download: true,
-    },
-  ], "nuxt-icon", "@nuxt/image", ["@nuxt/ui", {}], "@vueuse/nuxt", "@nuxt/content", "@nuxt/ui"],
+    ],
+    "nuxt-icon",
+    "@nuxt/image",
+    ["@nuxt/ui", {}],
+    "@vueuse/nuxt",
+    "@nuxt/content",
+    "@nuxt/ui",
+  ],
 
   ui: {
     icons: ["heroicons", "lucide"],
   },
 
   css: ["~/assets/css/tailwind/main.css"],
+
+  components: [
+    "~/components/App",
+    "~/components/Modals",
+    "~/components/Home",
+    "~/components",
+  ],
 
   tailwindcss: {
     cssPath: "~/assets/css/tailwind/index.css",
@@ -49,6 +64,5 @@ export default defineNuxtConfig({
     viewer: false,
   },
 
-  components: ["~/components"],
   compatibilityDate: "2024-11-14",
 });
