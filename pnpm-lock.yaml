@@ -55,8 +55,8 @@ importers:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
       daisyui:
-        specifier: 3.1.0
-        version: 3.1.0(postcss@8.4.49)
+        specifier: 4.12.14
+        version: 4.12.14(postcss@8.4.49)
       nuxt-icon:
         specifier: 0.6.7
         version: 0.6.7(magicast@0.3.5)(rollup@4.26.0)(vite@5.4.11(@types/node@22.9.0)(terser@5.36.0))(vue@3.5.12(typescript@5.0.4))(webpack-sources@3.2.3)
@@ -2157,11 +2157,13 @@ packages:
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
-  daisyui@3.1.0:
-    resolution: {integrity: sha512-G4dz/bRZVvlhQ/FtezXSg0rXOXzDJ0PcnMqeLSwCYNWXxf46fNJ8LWeV5qwsYOdJbXiXoZLnwyy+BsNoWZ+Bjg==}
+  culori@3.3.0:
+    resolution: {integrity: sha512-pHJg+jbuFsCjz9iclQBqyL3B2HLCBF71BwVNujUYEvCeQMvV97R59MNK3R2+jgJ3a1fcZgI9B3vYgz8lzr/BFQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
+  daisyui@4.12.14:
+    resolution: {integrity: sha512-hA27cdBasdwd4/iEjn+aidoCrRroDuo3G5W9NDKaVCJI437Mm/3eSL/2u7MkZ0pt8a+TrYF3aT2pFVemTS3how==}
     engines: {node: '>=16.9.0'}
-    peerDependencies:
-      postcss: ^8
 
   data-view-buffer@1.0.1:
     resolution: {integrity: sha512-0lht7OugA5x3iJLOWFhWK/5ehONdprk0ISXqVFn/NFrDu+cuc8iADFrGQz5BnRK7LLU3JmkbXSxaqX+/mXYtUA==}
@@ -8680,15 +8682,16 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  daisyui@3.1.0(postcss@8.4.49):
+  culori@3.3.0: {}
+
+  daisyui@4.12.14(postcss@8.4.49):
     dependencies:
-      colord: 2.9.3
       css-selector-tokenizer: 0.8.0
-      postcss: 8.4.49
+      culori: 3.3.0
+      picocolors: 1.1.1
       postcss-js: 4.0.1(postcss@8.4.49)
-      tailwindcss: 3.4.14
     transitivePeerDependencies:
-      - ts-node
+      - postcss
 
   data-view-buffer@1.0.1:
     dependencies:

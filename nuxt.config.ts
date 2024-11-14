@@ -41,7 +41,6 @@ export default defineNuxtConfig({
     ["@nuxt/ui", {}],
     "@vueuse/nuxt",
     "@nuxt/content",
-    "@nuxt/ui",
   ],
 
   ui: {
