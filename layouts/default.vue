@@ -29,7 +29,7 @@
     </div>
     <div class="h-32"></div>
     <slot />
-    <div class="h-32"></div>
+    <div class="h-12"></div>
     <footer class="text-[12px] max-w-2xl mx-auto text-gray-700 dark:text-gray-50 text-center pb-8">
         <br />
         <p>© Etiobi Kamsiyonna {{ currentYear }}. All rights reserved.</p>

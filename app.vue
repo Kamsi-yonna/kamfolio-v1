@@ -3,6 +3,7 @@
     <NuxtLoadingIndicator color="#60a5fa" />
     <UContainer>
       <NuxtPage />
+      <ContactModal />
     </UContainer>
   </NuxtLayout>
 </template>

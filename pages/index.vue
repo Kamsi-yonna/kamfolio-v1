@@ -4,7 +4,6 @@
             <Intro />
             <Socials />
             <FeaturedArticles />
-            <ContactModal />
         </div>
     </main>
 </template>
