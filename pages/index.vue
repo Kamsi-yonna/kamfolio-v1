@@ -2,6 +2,9 @@
     <main class="min-h-screen">
         <div class="space-y-24">
             <Intro />
+            <Socials />
+            <FeaturedArticles />
+            <ContactModal />
         </div>
     </main>
 </template>
