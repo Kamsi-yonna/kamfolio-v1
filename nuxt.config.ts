@@ -12,7 +12,13 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
-      link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
+      link: [
+        {
+          rel: "icon",
+          type: "image/png",
+          href: "/apple-touch-icon.png",
+        },
+      ],
       htmlAttrs: {
         lang: "en",
         class: "h-full",
