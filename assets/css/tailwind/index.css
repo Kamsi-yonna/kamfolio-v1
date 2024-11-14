@@ -40,5 +40,5 @@
 /* project page  */
 
 .project-card {
-  @apply w-5/6 sm:w-full mx-auto relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-4 pb-4 pt-32 border border-gray-800 dark:border-gray-100 rounded-xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:border-primary cursor-pointer;
+  @apply w-full sm:w-full mx-auto relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-4 pb-4 pt-32 border border-gray-800 dark:border-gray-100 rounded-xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:border-primary cursor-pointer;
 }
