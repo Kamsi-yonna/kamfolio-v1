@@ -21,6 +21,18 @@
                         :ui="{ rounded: 'rounded z-10 relative' }" />
                 </NuxtLink>
             </div>
+
+
+            <div
+                class="flex justify-center items-center my-24 space-y-1 sm:flex grid grid-cols-1 gap-3 text-gray-900 dark:text-gray-400">
+                <NuxtLink class="flex items-end gap-8 p-4 border border-gray-800 rounded-xl hover:border-primary"
+                    to="/projects">
+                    <span class="text-sm">
+                        That's all for now, head over to my project page
+                    </span>
+                    <Icon class="w-6 h-6" name="solar:folder-with-files-outline"></Icon>
+                </NuxtLink>
+            </div>
         </div>
     </main>
 </template>
