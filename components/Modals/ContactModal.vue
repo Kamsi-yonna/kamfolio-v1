@@ -5,7 +5,7 @@ const isOpen = ref(false)
 
 <template>
     <div>
-        <div class="my-6 items-center space-y-3">
+        <div class="my-6 mt-20 items-center space-y-3">
             <div class="flex-none rounded-full text-gray-900 dark:text-gray-400">
                 <div class="h-2 w-2 rounded-full bg-primary dark:bg-secondary"></div>
             </div>
