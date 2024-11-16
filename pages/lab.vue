@@ -68,7 +68,7 @@ const projects = ref<Projects[]>([
     },
     {
         name: 'Numbre',
-        url: 'https://guessking.netlify.app/',
+        url: 'https://kamsi-yonna.github.io/Numbre/',
         description: 'The goal is to reach a winning score by rolling the dice.',
         thumbnail: '/projects/game_die.png',
         status: 'Active'

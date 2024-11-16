@@ -6,7 +6,7 @@
                 {{ description }}
             </p>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-14 p-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-14">
                 <div v-for="(project, index) in projects" :key="index" class="project-card">
                     <NuxtLink :to="project.liveSite" external target="_blank">
                         <UAvatar :alt="project.name" size="md" :src="project.imageUrl"
