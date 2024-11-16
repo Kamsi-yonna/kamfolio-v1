@@ -60,6 +60,12 @@ useSeoMeta({
 
 const projects = [
     {
+        imageUrl: '/projects/carouselling_preview.png',
+        name: 'Carouselling',
+        categories: ['webflow', 'UI Development'],
+        liveSite: 'https://kam-caroselling.webflow.io/'
+    },
+    {
         imageUrl: '/projects/fyree-mag_preview.png',
         name: 'Fyree Mag',
         categories: ['Webflow', 'UI Development'],
@@ -77,15 +83,7 @@ const projects = [
         categories: ['HTML/CSS', 'UI Development'],
         liveSite: 'https://kamsi-yonna.github.io/Horizon-Academy/'
     },
-    {
-        imageUrl: '/projects/carouselling_preview.png',
-        name: 'Carouselling',
-        categories: ['webflow', 'UI Development'],
-        liveSite: 'https://kam-caroselling.webflow.io/'
-    },
 ];
 </script>
 
-<style scoped>
-/* Additional styles can be added here if necessary */
-</style>
+<style scoped></style>
