@@ -10,27 +10,24 @@
             My name is
             <span class="text-primary dark:text-blue animate-pulse">Kamsiyonna</span>
             , a self-motivated & curious developer based in the vibrant city of Lagos, Nigeria.
-            <br />
-            I have a passion for learning and a desire to solve problems with design. My approach involves uncovering
-            insights, reframing problems, and crafting forward-thinking solutions.
         </p>
         <p class="text-gray-900 dark:text-gray-400">
-            I am deeply passionate about contributing and providing accessible solutions that not only meet user needs
-            but
-            also pave the way for developments accross the web.
+            I specialize in creating interesting interfaces and building solutions that are not only functional but also
+            enhance user experiences. My goal is to contribute to projects that make a difference and collaborate with
+            others to discover innovative approaches to problem-solving.
         </p>
         <p class="text-gray-900 dark:text-gray-400">
-            By day, I'm a Junior Frontend Developer at
+            My work is guided by a commitment to user-centered design, where the needs and experiences of users are
+            always the top priority. I believe in continuous innovation to stay ahead of trends, fostering collaboration
+            to create impactful solutions, and embracing agility to navigate challenges effectively.
+        </p>
+        <p class="text-gray-900 dark:text-gray-400">
+            Outside of programming, I dabble in
             <a class="underline text-primary dark:text-blue" href="https://wearecheck.co/" target="_blank">
-                Check
-            </a>
-            , and by night, I'm reading or getting my hands dirty with open source projects.
-        </p>
-        <p class="text-gray-900 dark:text-gray-400">
-            Outside of programming, I dabble in architecture and interior design.
-            <br />
-            I enjoy listening to music a lot, reading and simply
-            <em class="font-bold">being.</em>
+                architecture and interior design.<br>
+            </a>I enjoy reading, swimming, playing card games, and listening to
+            music. I also have a
+            penchant for learning random things, which keeps my curiosity alive and fuels my creativity.
         </p>
     </div>
 </template>
