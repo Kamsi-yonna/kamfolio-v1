@@ -22,9 +22,9 @@
             to create impactful solutions, and embracing agility to navigate challenges effectively.
         </p>
         <p class="text-gray-900 dark:text-gray-400">
-            Outside of programming, I dabble in
-            <a class="underline text-primary dark:text-blue" href="https://wearecheck.co/" target="_blank">
-                architecture and interior design.<br>
+            Asides being s software engineer, I'm also an
+            <a class="underline text-primary dark:text-blue" href="https://etiobikamsi.wixsite.com/kamsiyonna" target="_blank">
+                Architect.<br>
             </a>I enjoy reading, swimming, playing card games, and listening to
             music. I also have a
             penchant for learning random things, which keeps my curiosity alive and fuels my creativity.
