@@ -6,7 +6,7 @@
                 {{ description }}
             </p>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-14">
+            <div class="grid grid-cols-1 sm:grid-cols- gap-8 mt-14 ">
                 <div v-for="(project, index) in projects" :key="index" class="project-card">
                     <NuxtLink :to="project.liveSite" external target="_blank">
                         <UAvatar :alt="project.name" size="md" :src="project.imageUrl"
@@ -62,8 +62,26 @@ const projects = [
     {
         imageUrl: '/projects/carouselling_preview.png',
         name: 'Carouselling',
-        categories: ['webflow', 'UI Development'],
-        liveSite: 'https://kam-caroselling.webflow.io/'
+        categories: ['webflow', 'UI Development', 'Frontend Development'],
+        liveSite: 'https://kam-caroselling.netlify.app/'
+    },
+    {
+        imageUrl: '/projects/quicklaw_preview.png',
+        name: 'Quicklaw',
+        categories: ['Webflow', 'UI Development'],
+        liveSite: 'https://quicklaw.webflow.io/'
+    },
+    {
+        imageUrl: '/projects/lytup_preview.png',
+        name: 'Lytup',
+        categories: ['Webflow', 'UI Development', 'Frontend Development'],
+        liveSite: 'https://www.lytup.co/'
+    },
+    {
+        imageUrl: '/projects/ecolabz_preview.png',
+        name: 'Ecolabz',
+        categories: ['Webflow', 'UI Development'],
+        liveSite: 'https://ecolabz.webflow.io/'
     },
     {
         imageUrl: '/projects/fyree-mag_preview.png',
