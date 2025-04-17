@@ -78,12 +78,6 @@ const projects = [
         liveSite: 'https://www.lytup.co/'
     },
     {
-        imageUrl: '/projects/ecolabz_preview.png',
-        name: 'Ecolabz',
-        categories: ['Webflow', 'UI Development'],
-        liveSite: 'https://ecolabz.webflow.io/'
-    },
-    {
         imageUrl: '/projects/fyree-mag_preview.png',
         name: 'Fyree Mag',
         categories: ['Webflow', 'UI Development'],
