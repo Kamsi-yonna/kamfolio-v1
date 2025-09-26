@@ -60,6 +60,12 @@ useSeoMeta({
 
 const projects = [
     {
+        imageUrl: '/projects/city-distro_preview.png',
+        name: 'City Distro',
+        categories: ['webflow', 'UI Development', 'Frontend Development'],
+        liveSite: 'https://citydistro.africa/'
+    },
+    {
         imageUrl: '/projects/carouselling_preview.png',
         name: 'Carouselling',
         categories: ['webflow', 'UI Development', 'Frontend Development'],
