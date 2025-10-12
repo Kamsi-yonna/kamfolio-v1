@@ -60,6 +60,13 @@ const displayedProjects = computed(() => {
 
 const projects = ref<Projects[]>([
     {
+        name: 'Utility Package',
+        url: 'https://check-eng.gitbook.io/ts-utils',
+        description: "A comprehensive TypeScript utility library designed to streamline the development workflow.",
+        thumbnail: '/projects/check-utils.png',
+        status: 'Active'
+    },
+    {
         name: 'AI Chatbot',
         url: 'https://kam-chatbot.netlify.app/',
         description: "A simple AI integration similar to chatGPT.",
