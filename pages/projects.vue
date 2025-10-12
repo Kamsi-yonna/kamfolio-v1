@@ -78,6 +78,18 @@ const projects = [
         liveSite: 'https://quicklaw.webflow.io/'
     },
     {
+        imageUrl: '/projects/retna_preview.png',
+        name: 'Retna',
+        categories: ['Webflow', 'UI Development'],
+        liveSite: 'https://retna.io/'
+    },
+    {
+        imageUrl: '/projects/nigerian-mockups_preview.png',
+        name: 'Nigerian Mockups',
+        categories: ['Webflow', 'UI Development', 'Frontend Development'],
+        liveSite: 'https://nigerianmockups.com/'
+    },
+    {
         imageUrl: '/projects/lytup_preview.png',
         name: 'Lytup',
         categories: ['Webflow', 'UI Development', 'Frontend Development'],
