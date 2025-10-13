@@ -22,14 +22,14 @@
                 </NuxtLink>
             </div>
 
-            <div class="search-box mt-4">
-                <div class="w-full md:w-3/5 mx-auto flex items-center gap-2 p-8">
-                    <UAlert :avatar="{
-                        src: 'https://media.giphy.com/media/NXOF5rlaSXdAc/giphy.gif',
-                        size: '2xl',
-                        base: 'flex-shrink-0 self-center'
-                    }" :description="noArticlesFound" title="Oops! still in prog.." variant="solid" />
-                </div>
+            <div
+                class="flex justify-center items-center my-24 space-y-1 sm:flex grid grid-cols-1 gap-3 text-gray-900 dark:text-gray-400">
+                <NuxtLink class="flex items-end gap-8 p-4 border border-gray-800 rounded-xl hover:border-primary"
+                    to="/projects">
+                    <span class="text-sm">
+                        That's all for now, check out my projects </span>
+                    <Icon class="w-6 h-6" name="solar:folder-with-files-outline"></Icon>
+                </NuxtLink>
             </div>
         </div>
     </main>
@@ -43,4 +43,31 @@ useSeoMeta({
     title: 'Articles | Kamsiyonna',
     description
 })
+
+interface Projects {
+    name: string
+    // description: string
+    thumbnail: string
+    status: string
+    url: string
+}
+
+const displayedProjects = computed(() => {
+    return projects.value.slice(0)
+})
+
+const projects = ref<Projects[]>([
+    {
+        name: 'From Blueprints to Bugs: How This Architect Became A Software Engineer.',
+        url: 'https://wearecheck.co/thoughts/from-blueprints-to-bugs',
+        thumbnail: '/projects/check-utils.png',
+        status: 'Active'
+    },
+    {
+        name: 'Nuxt Configuration — A personal approach to configuring my Nuxt projects.',
+        url: 'https://medium.com/@etiobikamsi/nuxt-configuration-a-personal-approach-to-configuring-my-nuxt-projects-8ce35f20dd45',
+        thumbnail: '/projects/medium-logo.jpeg',
+        status: 'Active'
+    }
+])
 </script>

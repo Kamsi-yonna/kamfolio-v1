@@ -40,9 +40,8 @@
                 <NuxtLink class="flex items-end gap-8 p-4 border border-gray-800 rounded-xl hover:border-primary"
                     to="/lab">
                     <span class="text-sm">
-                        That's all for now, head over to my lab
-                    </span>
-                    <Icon class="w-6 h-6" name="heroicons:beaker"></Icon>
+                        That's all for now, head over to my lab</span>
+                        <Icon class="w-6 h-6" name="heroicons:beaker"></Icon>
                 </NuxtLink>
             </div>
         </div>

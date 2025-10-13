@@ -28,9 +28,9 @@
                 <NuxtLink class="flex items-end gap-8 p-4 border border-gray-800 rounded-xl hover:border-primary"
                     to="/projects">
                     <span class="text-sm">
-                        That's all for now, head over to my project page
+                        That's all for now, go and read my articles 
                     </span>
-                    <Icon class="w-6 h-6" name="solar:folder-with-files-outline"></Icon>
+                    <Icon class="w-6 h-6" name="solar:document-add-outline"></Icon>
                 </NuxtLink>
             </div>
         </div>

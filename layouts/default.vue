@@ -46,8 +46,8 @@ const { styles } = useFixedHeader(headerRef)
 const items = [
     { name: 'Home', path: '/', icon: 'solar:home-smile-outline' },
     { name: 'Projects', path: '/Projects', icon: 'solar:folder-with-files-outline' },
-    { name: 'Articles', path: '/Articles', icon: 'solar:document-add-outline' },
-    { name: 'Lab', path: '/lab', icon: 'heroicons:beaker' }
+    { name: 'Lab', path: '/lab', icon: 'heroicons:beaker' },
+    { name: 'Articles', path: '/Articles', icon: 'solar:document-add-outline' }
 ]
 
 const colorMode = useColorMode()
