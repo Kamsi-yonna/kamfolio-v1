@@ -52,7 +52,7 @@
 
 <script setup lang="ts">
 const description =
-  "Explore a diverse collection of articles pertaining to my career insights, programming expertise, and life as I perceive it.";
+  "Explore a diverse collection of articles pertaining to my career insights and just life as I perceive it or percieved by others.";
 
 useSeoMeta({
   title: "Articles | Kamsiyonna",
@@ -77,17 +77,7 @@ const projects = ref<Project[]>([
     status: "Active",
   },
   {
-    name: "The designers way of seeing test.",
-    url: "https://onvisualmatters.substack.com/p/the-quiet-work-of-seeing?utm_campaign=post-expanded-share&utm_medium=web&utm_source=ig&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYR2bFj3Hw2p8E0gqquKennhJX2GbVvv1lspTBvSGNdEWfAV0HCtpzgHfRU0_aem_MmolaVcYefgbxLN33ya18Q&triedRedirect=true",
-    status: "Active",
-  },
-  {
-    name: "The designers way of seeing test .",
-    url: "https://medium.com/age-of-empathy/the-cure-for-apathy-is-action-a-gardeners-view-of-a-warming-world-7d667aad0fa0",
-    status: "Active",
-  },
-  {
-    name: "The designers way of seeing test .",
+    name: "The designers way of seeing tes - On introspection, perception, and the invisible foundation of design practice..",
     url: "https://substack.com/home/post/p-181348169",
     status: "Active",
   },
