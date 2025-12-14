@@ -19,7 +19,7 @@
         >
           <div class="max-w-sm">
             <h3 class="text-sm">{{ project.name }}</h3>
-            <p class="text-gray-400 text-sm">{{ project.description }}</p>
+            <p class="text-gray-400 text-sm">{{ project.author }}</p>
           </div>
 
           <div
@@ -61,6 +61,7 @@ useSeoMeta({
 
 interface Project {
   name: string;
+  author: string;
   status: string;
   url: string;
 }
@@ -68,16 +69,19 @@ interface Project {
 const projects = ref<Project[]>([
   {
     name: "From Blueprints to Bugs: How This Architect Became A Software Engineer.",
+    author: "Etiobi Kamsiyonna",
     url: "https://wearecheck.co/thoughts/from-blueprints-to-bugs",
     status: "Active",
   },
   {
     name: "Nuxt Configuration — A personal approach to configuring my Nuxt projects.",
+    author: "Etiobi Kamsiyonna",
     url: "https://medium.com/@etiobikamsi/nuxt-configuration-a-personal-approach-to-configuring-my-nuxt-projects-8ce35f20dd45",
     status: "Active",
   },
   {
     name: "The designers way of seeing tes - On introspection, perception, and the invisible foundation of design practice..",
+    author: "Kanayo Uzo",
     url: "https://substack.com/home/post/p-181348169",
     status: "Active",
   },
