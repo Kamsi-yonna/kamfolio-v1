@@ -80,6 +80,18 @@ const projects = ref<Project[]>([
     status: "Active",
   },
   {
+    name: "Why AI wont take your job just yet",
+    author: "Loba Agboola",
+    url: "https://medium.com/@starloba/why-ai-wont-take-your-job-just-yet-13e95cd05da8",
+    status: "Active",
+  },
+  {
+    name: "Why AI wont take your job just yet",
+    author: "Loba Agboola",
+    url: "https://medium.com/@starloba/why-ai-wont-take-your-job-just-yet-13e95cd05da8",
+    status: "Active",
+  },
+  {
     name: "The designers way of seeing tes - On introspection, perception, and the invisible foundation of design practice..",
     author: "Kanayo Uzo",
     url: "https://substack.com/home/post/p-181348169",
