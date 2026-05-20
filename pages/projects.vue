@@ -50,7 +50,7 @@
 
 <script setup lang="ts">
 const description =
-    'Discover my projects – a showcase of realistic and accomplished endeavors. Explore a curated collection of works that reflect my expertise and pride in various tech projects developed over the years.'
+    'Discover my projects – a showcase of realistic and accomplished endeavors. Explore a curated collection of projects that I have been involved in which reflect my expertise and pride in various tech projects developed over the years.'
 
 useSeoMeta({
     title: 'Projects | Kamsiyonna',
