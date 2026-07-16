@@ -67,13 +67,6 @@ const projects = ref<Projects[]>([
         status: 'Active'
     },
     {
-        name: 'AI Chatbot',
-        url: 'https://kam-chatbot.netlify.app/',
-        description: "A simple AI integration similar to chatGPT.",
-        thumbnail: '/projects/chatbot.png',
-        status: 'Active'
-    },
-    {
         name: 'Guess King',
         url: 'https://guessking.netlify.app/',
         description: "I'm thinking of a number between 1 and 20.Can you guess the number?",
