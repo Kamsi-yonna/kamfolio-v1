@@ -59,6 +59,12 @@ useSeoMeta({
 
 const projects = [
     {
+        imageUrl: '/projects/architecture-portfolio_preview.png',
+        name: 'My Architecture Portfolio',
+        categories: ['WIX', 'UI Development', 'Frontend Development'],
+        liveSite: 'https://etiobikamsi.wixsite.com/kamsiyonna'
+    },
+    {
         imageUrl: '/projects/city-distro_preview.png',
         name: 'City Distro',
         categories: ['webflow', 'UI Development', 'Frontend Development'],
